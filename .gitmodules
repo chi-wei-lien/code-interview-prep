@@ -1,0 +1,6 @@
+[submodule "code-interview-prep-client"]
+	path = code-interview-prep-client
+	url = git@github.com:chi-wei-lien/code-interview-prep-client.git
+[submodule "code-interview-prep-api"]
+	path = code-interview-prep-api
+	url = git@github.com:chi-wei-lien/code-interview-prep-api.git
