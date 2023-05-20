@@ -1,12 +1,16 @@
 # Design Document
+
 ### App Name: <b>Code Interview Prep</b>
+
 ### Problem statement: 
 - Hard to keep track of coding interview preperation
 - Difficult to prepare with friends
+
 ### Design Outline:
 - Frontend: React with Typescript
 - Backend: Spring Boot
-- Database: Microsoft SQL
+- Database: PostgreSQL
+
 ### Functional Requirements:
 - Set up user accounts
     - As a user, I would like to sign up and sign in using my Github account
@@ -27,4 +31,12 @@
     - As a user who is part of a study group, I would like to post weekly assignment (coding questions)
     - As a user who is part of a study group, I would like to see which assignment questions that I have solved
     - As a user who is part of a study group, I would like to post solution to the weekly assignment question
+
+### Class Design
+- ProblemLog
+    - id (Long)
+    - name (String)
+    - difficulty (Double, 0.0 - 5.0)
+    - url (String)
+    - date (Date)
 
